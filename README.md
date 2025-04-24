@@ -1,12 +1,41 @@
-- 👋 Hi, I’m @joshuablac
-- 👀 I’m interested in .coding and being better at it, i believe evryday is a new opportunity to learn something new..
-- 🌱 I’m currently learning  typescript, and hoping to be a full stack dev...
-- 💞️ I’m looking to collaborate on  different exciting projects, with like minded passiom drived people...
-- 📫 How to reach me ? you can reach me by my email joshuaoluadebusola@gmail.com or message me @09135993592...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# 🧑‍💻 ADEBUSOLA OLUGBENGA JOSHUA
 
-<!---
-joshuablac/joshuablac is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+**`Digital Craftsman (Software Developer) `**
+
+<h3 style="font-size: 5em"> Hi 👋, I'm a software developer willing to learn and bring to life the impossible with Code while creating endless solutions and opportunities for people around me. 😉 </h3>
+
+<h4> Still building my portfolio 🏗️ <br/>
+👇👇 but you can take a look at my resume 👌 </h4>
+
+## [View Resume](https://joshua-portfolio-six.vercel.app/)
+
+<br/>
+
+   <p align="left">
+   <a href="https://www.linkedin.com/in/joshua-adebusola-67abb3319/">
+      <img alt="Linkedin" width="32px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+   </a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://x.com/AdebusolaJoshua">
+   <img  alt="Twitter" width="32px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" />
+  </a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="mailto:joshuaoluadebusola@gmail.com"">
+   <img  alt="Mail" width="32px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />
+  </a>
+</p>
+
+<br/>
+
+<p align="left">
+      <a href="https://github.com/joshuablac?tab=repositories">
+    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/joshuablac?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+  <a href="https://github.com/joshuablac?tab=followers">
+    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/joshuablac?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+   </p>
+
+---
+
+## 🧰 Leng pd eific To.ebr
+r=ko<h3s__oy ="e5"> ,nss  vcic   W,Mb, kp,Sicpug,T.</3>
+<b/><b/><b/>### 👇😉
