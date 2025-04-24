@@ -1,10 +1,8 @@
 # 🧑‍💻 ADEBUSOLA OLUGBENGA JOSHUA
-
+**`Digital Craftsman (Software Developer) `**
 <div align="center">
   <img height=200" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
-**`Digital Craftsman (Software Developer) `**
-
 <h3 style="font-size: 5em"> Hi 👋, I'm a software developer willing to learn and bring to life the impossible with Code while creating endless solutions and opportunities for people around me. 😉 </h3>
 
 <h4> Still building my portfolio 🏗️ <br/>
