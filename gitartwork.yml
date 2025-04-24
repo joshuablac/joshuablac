@@ -14,5 +14,5 @@ jobs:
           # Use this username's contribution graph
           user_name: kodaas
           # Text on contribution graph
-          text: KODAAS
+          text: JOSHUABLAC
       - uses: jasineri/simple-push-action@v1
