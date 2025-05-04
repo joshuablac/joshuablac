@@ -1,4 +1,4 @@
-https://virginia.zoom.us/j/94007356541?pwd=oSUdHfMSZgBo23MUFjoDZQQ1PqQYkM.1
+
 # 🧑‍💻 ADEBUSOLA OLUGBENGA JOSHUA
 **`Digital Craftsman (Software Developer) `**
 <div align="center">
