@@ -4,6 +4,10 @@
   <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
     <animate attributeName="x1" values="0;-1;0" dur="8s" repeatCount="indefinite"/><animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/></linearGradient>
   <radialGradient id="core"><stop offset="0" stop-color="#fff"/><stop offset="0.35" stop-color="#67e8f9"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  <radialGradient id="botglow"><stop offset="0" stop-color="#a78bfa" stop-opacity=".3"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <radialGradient id="coreg"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#f472b6"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2150"/><stop offset="1" stop-color="#140d2e"/></linearGradient>
+  <linearGradient id="flameg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6366f1" stroke-opacity="0.08"/></pattern>
   <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
@@ -11,6 +15,13 @@
     .sans{font-family:'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif}
     .cursor{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
     .scan{animation:scan 6s linear infinite}@keyframes scan{from{transform:translateY(-20px)}to{transform:translateY(320px)}}
+    .bot{animation:float 3.2s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .shadow{transform-box:fill-box;transform-origin:center;animation:shadow 3.2s ease-in-out infinite}@keyframes shadow{0%,100%{transform:scaleX(1);opacity:.45}50%{transform:scaleX(.75);opacity:.2}}
+    .eye{transform-box:fill-box;transform-origin:center;animation:eyeblink 4s infinite}@keyframes eyeblink{0%,44%,50%,100%{transform:scaleY(1)}47%{transform:scaleY(.1)}}
+    .wave{transform-box:fill-box;transform-origin:50% 100%;animation:wave 1.6s ease-in-out infinite}@keyframes wave{0%,100%{transform:rotate(15deg)}50%{transform:rotate(45deg)}}
+    .botcore{animation:botcore 1.8s ease-in-out infinite}@keyframes botcore{0%,100%{opacity:.55}50%{opacity:1}}
+    .bubble{animation:pop 6s ease-in-out infinite}@keyframes pop{0%,82%{opacity:1}88%,94%{opacity:0}100%{opacity:1}}
+    .flame{transform-box:fill-box;transform-origin:top;animation:flame .35s ease-in-out infinite alternate}@keyframes flame{from{transform:scaleY(.7)}to{transform:scaleY(1.15)}}
   </style>
 </defs>
 <rect width="1000" height="300" rx="18" fill="url(#bg)"/>
@@ -22,29 +33,38 @@
 <text x="50" y="172" class="mono" font-size="18" fill="#e2e8f0">Digital Craftsman · Full-Stack Developer · AI Explorer<tspan class="cursor" fill="#f472b6"> ▌</tspan></text>
 <text x="50" y="222" class="mono" font-size="14" fill="#a78bfa">[ MERN ] [ React ] [ Node ] [ MongoDB ] [ Machine Learning ]</text>
 <text x="50" y="262" class="sans" font-size="13" font-weight="700" letter-spacing="4" fill="#fbbf24" opacity="0.9">✦ GOD FIRST IN ALL I DO ✦</text>
-<g transform="translate(860 150)">
-  <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
-    
-  <g transform="rotate(0)">
-    <ellipse rx="100" ry="33" fill="none" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.6"/>
-    <circle r="6" fill="#22d3ee" filter="url(#glow)">
-      <animateMotion dur="3s" repeatCount="indefinite" path="M -100 0 A 100 33 0 1 1 100 0 A 100 33 0 1 1 -100 0"/>
-    </circle>
+<ellipse cx="890" cy="150" rx="105" ry="115" fill="url(#botglow)"/>
+<g transform="translate(760 22)">
+  <ellipse class="shadow" cx="130" cy="244" rx="46" ry="6" fill="#a78bfa"/>
+  <g class="bot">
+    <line x1="130" y1="52" x2="130" y2="30" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="130" cy="26" r="6" fill="#22d3ee"/>
+    <ellipse cx="130" cy="26" rx="26" ry="8" fill="none" stroke="#22d3ee" stroke-opacity=".45" stroke-width="1.2"/>
+    <circle r="3.5" fill="#f472b6"><animateMotion dur="1.6s" repeatCount="indefinite" path="M156 26 A26 8 0 1 1 104 26 A26 8 0 1 1 156 26"/></circle>
+    <rect x="84" y="52" width="92" height="66" rx="20" fill="url(#metal)" stroke="#a78bfa" stroke-width="2.5"/>
+    <rect x="96" y="64" width="68" height="40" rx="12" fill="#05060f" stroke="#22d3ee" stroke-opacity=".5"/>
+    <rect class="eye" x="110" y="74" width="12" height="18" rx="6" fill="#22d3ee"/>
+    <rect class="eye" x="138" y="74" width="12" height="18" rx="6" fill="#22d3ee"/>
+    <circle cx="80" cy="85" r="6" fill="#f472b6"/><circle cx="180" cy="85" r="6" fill="#f472b6"/>
+    <rect x="122" y="118" width="16" height="8" fill="#a78bfa"/>
+    <rect x="92" y="126" width="76" height="70" rx="18" fill="url(#metal)" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle class="botcore" cx="130" cy="152" r="18" fill="url(#coreg)"/>
+    <circle cx="130" cy="152" r="10" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+    <text x="130" y="186" class="mono" font-size="9" fill="#fbbf24" text-anchor="middle" letter-spacing="1">J-0SH v1.0</text>
+    <rect x="72" y="134" width="14" height="44" rx="7" fill="url(#metal)" stroke="#a78bfa" stroke-width="2"/>
+    <g class="wave">
+      <rect x="174" y="104" width="14" height="40" rx="7" fill="url(#metal)" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="181" cy="100" r="8" fill="#22d3ee"/>
+    </g>
+    <rect x="116" y="196" width="28" height="8" rx="3" fill="#a78bfa"/>
+    <path class="flame" d="M118 204 L142 204 L130 232 Z" fill="url(#flameg)"/>
   </g>
-  <g transform="rotate(60)">
-    <ellipse rx="100" ry="33" fill="none" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.6"/>
-    <circle r="6" fill="#a78bfa" filter="url(#glow)">
-      <animateMotion dur="4s" repeatCount="indefinite" path="M 100 0 A 100 33 0 1 0 -100 0 A 100 33 0 1 0 100 0"/>
-    </circle>
-  </g>
-  <g transform="rotate(120)">
-    <ellipse rx="100" ry="33" fill="none" stroke="#f472b6" stroke-opacity="0.55" stroke-width="1.6"/>
-    <circle r="6" fill="#f472b6" filter="url(#glow)">
-      <animateMotion dur="3.5s" repeatCount="indefinite" path="M -100 0 A 100 33 0 1 1 100 0 A 100 33 0 1 1 -100 0"/>
-    </circle>
-  </g>
-  </g>
-  <circle r="30" fill="url(#core)"><animate attributeName="r" values="26;34;26" dur="2.4s" repeatCount="indefinite"/></circle>
-  <circle r="10" fill="#e0f2fe" filter="url(#glow)"/>
+</g>
+<g class="bubble">
+  <rect x="628" y="20" width="196" height="60" rx="14" fill="#0d0b2a" stroke="#22d3ee" stroke-width="1.5"/>
+  <path d="M812 60 L846 76 L806 72 Z" fill="#0d0b2a" stroke="#22d3ee" stroke-width="1.5" stroke-linejoin="round"/>
+  <rect x="800" y="58" width="14" height="14" fill="#0d0b2a"/>
+  <text x="644" y="45" class="mono" font-size="14" fill="#e2e8f0">hi, I'm Joshua 👋</text>
+  <text x="644" y="66" class="mono" font-size="12" fill="#f472b6">welcome to my lab ⚛</text>
 </g>
 </svg>
