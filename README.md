@@ -47,6 +47,8 @@ const joshua = {
 
 <div align="center">
 
+<img src="assets/bot.svg" alt="J-0SH, my robot sidekick, waving: hi, I'm J-0SH, let's build something!" width="420" />
+
 <a href="https://joshua-portfolio-six.vercel.app/"><img src="https://img.shields.io/badge/Resume-0D0B2A?style=for-the-badge&logo=vercel&logoColor=22D3EE" alt="Resume" /></a>
 <a href="https://www.linkedin.com/in/joshua-adebusola-67abb3319/"><img src="https://img.shields.io/badge/LinkedIn-0D0B2A?style=for-the-badge&logo=linkedin&logoColor=A78BFA" alt="LinkedIn" /></a>
 <a href="https://x.com/AdebusolaJoshua"><img src="https://img.shields.io/badge/X-0D0B2A?style=for-the-badge&logo=x&logoColor=F472B6" alt="X" /></a>
