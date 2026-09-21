@@ -12,6 +12,13 @@
 
 ## [View Resume](https://joshua-portfolio-six.vercel.app/)
 
+## 🌍 Open Source Contributions
+
+| Project | Contribution | Status |
+|---|---|---|
+| [highlight.js](https://github.com/highlightjs/highlight.js) (25k★) | [Fixed a ReDoS (freeze) vulnerability in the LiveScript grammar](https://github.com/highlightjs/highlight.js/pull/4546). A 40k-character input went from 11.6 s to 47 ms to highlight. | 🟡 Open |
+| [swagger-ui](https://github.com/swagger-api/swagger-ui) (29k★) | [Show property-level `title` in OpenAPI 3.1 schemas](https://github.com/swagger-api/swagger-ui/pull/11062). It was being silently dropped. | 🟡 Open |
+
 <br/>
 
    <p align="left">
