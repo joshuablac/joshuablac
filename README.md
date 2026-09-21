@@ -14,14 +14,14 @@
 const joshua = {
   role:      "Digital Craftsman · Software Developer",
   mission:   "Bring the impossible to life with code, creating solutions and opportunities for people around me",
-  stack:     ["JavaScript", "TypeScript", "React", "Node.js", "Express", "MongoDB"],
+  stack:     ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express", "MongoDB"],
   exploring: ["Machine Learning", "AI agents", "Cybersecurity"],
   motto:     "GOD FIRST IN ALL I DO",
 };
 ```
 
 <div align="center">
-  <img src="assets/stack.svg" alt="Periodic table of my stack: JavaScript, TypeScript, C#, HTML5, CSS3, React, Tailwind, Vite, TanStack Query, Node.js, Express, MongoDB, Git, Machine Learning" width="100%" />
+  <img src="assets/stack.svg" alt="Periodic table of my stack: JavaScript, TypeScript, Python, HTML5, CSS3, React, Next.js, Tailwind, Vite, TanStack Query, Framer Motion, Three.js, Node.js, Express, MongoDB, PostgreSQL, Git and GitHub, Vercel; now exploring Docker, Machine Learning, LLMs and AI SDK" width="100%" />
 </div>
 
 ## ⚛ Open Source Contributions
