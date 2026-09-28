@@ -32,6 +32,15 @@ const joshua = {
 | [highlight.js](https://github.com/highlightjs/highlight.js) (25k★) | [Fixed a ReDoS (freeze) vulnerability in the LiveScript grammar](https://github.com/highlightjs/highlight.js/pull/4546). A 40k-character input went from 11.6 s to 47 ms to highlight. | 🟡 Open |
 | [swagger-ui](https://github.com/swagger-api/swagger-ui) (29k★) | [Show property-level `title` in OpenAPI 3.1 schemas](https://github.com/swagger-api/swagger-ui/pull/11062). It was being silently dropped. | 🟡 Open |
 
+## 🏆 Achievements
+
+<div align="center">
+
+<a href="https://github.com/joshuablac?tab=achievements"><img src="https://img.shields.io/badge/My_GitHub_achievements-0D0B2A?style=for-the-badge&logo=github&logoColor=FBBF24" alt="My GitHub achievements" /></a>
+<a href="https://github.com/joshuablac/achievements-sandbox"><img src="https://img.shields.io/badge/achievements--sandbox-0D0B2A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="achievements-sandbox repo" /></a>
+
+</div>
+
 ## 📡 Activity
 
 <div align="center">
